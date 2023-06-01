@@ -14,8 +14,13 @@ grandes telas: acima de 1200px */
 @media print { 
     /*IMPRESSÃO */
     body {
-        background-image: url(../imagens/back-print.jpg);
+        /* background-image: url(../imagens/back-print.jpg); IMPRESSORA NÃOP IMPRIME BACKGROUD*/
     }
+img#phone { display: none;}
+img#tablet {display: none;}
+img#print {display:block;}
+img#pc {display:none;}
+img#tv {display:none}
 
 }
 
